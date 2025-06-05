@@ -15,7 +15,7 @@ const Services = () => {
   };
 
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="specialties">
       <h2 className="section__title">Specialties</h2>
 
       <div className="services__container container grid">
@@ -23,9 +23,9 @@ const Services = () => {
           <div>
             <HiOutlineClipboardList className="services__icon" />
             <h3 className="services__title">
-              Web
+              Full Stack
               <br />
-              Developer
+              Development
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -43,28 +43,28 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="services__modal-close"
               />
-              <h3 className="services__modal-title">Developer</h3>
+              <h3 className="services__modal-title">Full Stack Developer</h3>
               <p className="services__modal-description">
-                Web Development Intern at Tatvasoft
+                Experienced in building web applications
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <HiOutlineCheckCircle className="services__modal-icon" />
                   <p className="services__modal-info">
-                    Experienced in back-end development
+                    Full Stack Developer Intern at startup ShiftNext.
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <HiOutlineCheckCircle className="services__modal-icon" />
                   <p className="services__modal-info">
-                    Proficient in API development and integration
+                    Web Developer Intern at Tatvasoft, India.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <HiOutlineCheckCircle className="services__modal-icon" />
                   <p className="services__modal-info">
-                    Implemented secure authentication systems
+                    Experience in developing scalable multi-tenant solutions.
                   </p>
                 </li>
               </ul>
@@ -78,7 +78,7 @@ const Services = () => {
             <h3 className="services__title">
               Competitive
               <br />
-              Programmer
+              Programming
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -98,7 +98,7 @@ const Services = () => {
               />
               <h3 className="services__modal-title">Programmer</h3>
               <p className="services__modal-description">
-                Good knowledge of various programming languages
+                Proficient in various programming languages
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
