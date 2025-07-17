@@ -2,6 +2,7 @@ import ZenithImage from "../../assets/zenithstore.JPG";
 import ChatPulseImage from "../../assets/chatpulse.JPG";
 import EmoifyImage from "../../assets/emoify.jpg";
 import TimezoneImage from "../../assets/timezone.JPG";
+import CodexiaImage from "../../assets/codexia.JPG";
 
 export const projectsData = [
   {
@@ -14,13 +15,20 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: CodexiaImage,
+    title: "Codexia",
+    githubLink: "https://github.com/devshah23/codexia",
+    liveLink: "https://codexia-pi.vercel.app/",
+  },
+  {
+    id: 3,
     image: TimezoneImage,
     title: "TimeZone Convertor",
     githubLink: "https://github.com/devshah23/TimeZone-Convertor",
     liveLink: "http://time-zone-convertor.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: ChatPulseImage,
     title: "Chat Pulse",
     category: "B",
@@ -28,7 +36,7 @@ export const projectsData = [
     liveLink: "",
   },
   {
-    id: 4,
+    id: 5,
     image: EmoifyImage,
     title: "Emoify",
     category: "C",
